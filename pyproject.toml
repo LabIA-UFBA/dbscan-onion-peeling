@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "tcc-luiz-cavalcanti"
+version = "0.0.1"
+description = ""
+authors = ["Luiz Cavalcanti <luizdantas.cavalcanti@gmail.com>"]
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "*"
+scipy = "*"
+scikit-learn = "1.5.2"
+pandas = "*"
+ilock = "*"
+filelock = "*"
+more-itertools = "*"
+numba = "^0.60.0"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+ruff = "^0.9.9"
+
+[tool.poetry.dev-dependencies]
+black = "*"
